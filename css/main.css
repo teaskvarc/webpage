@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+
+.title{
+    font-family: 'Chewy', cursive;
+}
+h1{
+    margin-top: -5%;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.85em;
+    }
+    h2 {
+        font-size: 2.6em;
+    }
+}
+h3{
+    padding-top: 50px;
+}
+
+
+
+/*HOME*/
+
+.intro{
+    height: 100vh;
+    text-align: center;
+}
+.no-margin{
+    margin:0;
+}
+
+/* First Info */
+
+.first-photo{
+    height: 400px;
+    background: url(../img/first.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.second-photo{
+    height: 400px;
+    background: url("../img/second.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Participate */
+.icon-block{
+    padding: 0 15px;
+}
+.icon-block .material-icons{
+    font-size: 3.56rem;
+}
+.padding-bottom{
+    padding-bottom: 50px;
+}
