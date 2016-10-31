@@ -3,6 +3,10 @@
 .title{
     font-family: 'Chewy', cursive;
 }
+.main-title{
+    font-weight: 500;
+}
+
 h1{
     margin-top: -5%;
 }
@@ -48,6 +52,7 @@ h3{
     background-position: center;
 }
 
+
 /* Participate */
 .icon-block{
     padding: 0 15px;
@@ -57,4 +62,32 @@ h3{
 }
 .padding-bottom{
     padding-bottom: 50px;
+}
+
+/*team*/
+.team-col{
+    margin-bottom: 30px;
+}
+
+.team-person{
+    border-radius: 999px;
+    height: 250px;
+    width: auto;
+    -webkit-transition: 0.25s all linear;
+    transition: 0.25s all linear;
+}
+.team-person:hover{
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 480px) {
+    .team-person{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* contact */
+#contact{
+    padding-top: 60px;
 }
