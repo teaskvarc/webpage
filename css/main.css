@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Chewy');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
 
-.title{
+*,*:before, *:after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.title, h1, h2, h3{
     font-family: 'Chewy', cursive;
 }
 .main-title{
@@ -23,7 +31,9 @@ h3{
     padding-top: 50px;
 }
 
-
+h6{
+    font-size: 1.64rem;
+}
 
 /*HOME*/
 
@@ -87,7 +97,39 @@ h3{
     }
 }
 
-/* contact */
 #contact{
-    padding-top: 60px;
+    padding-top: 50px;
+}
+
+.footer-icons{
+    margin-bottom: 50px;
+}
+
+.page-footer{
+    margin-top: 0;
+}
+
+.footer-copyright{
+    padding: 10px;
+    text-align: center;
+}
+
+.side-nav li{
+    display: inline-block;
+}
+
+.side-nav{
+    width: 230px;
+    background-color: #e8f5e9;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+.icon-block:hover{
+    background-color: #2bbbad;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
